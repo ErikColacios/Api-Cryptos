@@ -6,7 +6,6 @@ body{
     background-color: black !important;
 }
 
-
 .recuadro{
     width: 400px !important;
     margin: 20px;
@@ -68,7 +67,6 @@ a:hover{
 
 
 /* ----------- Lo siguiente es para quitar las flechitas del INPUT TYPE: NUMBER ------------------------------*/
-
 
 input[type="number"]{
     -webkit-appearance: textfield;
