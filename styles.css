@@ -1,0 +1,81 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black !important;
+}
+
+
+.recuadro{
+    width: 400px !important;
+    margin: 20px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+hr{
+    width: 290px;
+}
+
+.btnInputLeft{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 1px;
+    width: 30px;
+    transition: 0.2s;
+    border: 1px solid #77ADFF;
+    border-right: none;
+    margin-left: 2px;
+    color: #77ADFF;
+}
+
+.btnInputLeft:hover{
+    background-color: #77ADFF;
+    color: white;
+}
+
+.btnInputRight{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1px;
+    width: 30px;
+    transition: 0.2s;
+    border: 1px solid #77ADFF;
+    border-left: none;
+    color: #77ADFF;
+}
+
+.btnInputRight:hover{
+    background-color: #77ADFF;
+    color: white;
+}
+
+a:hover{
+	color: white;
+}
+
+
+#graficas{
+    width: 50px;
+    border: 1px solid #77ADFF;
+    text-align: center;
+    margin: -4px;
+}
+
+
+/* ----------- Lo siguiente es para quitar las flechitas del INPUT TYPE: NUMBER ------------------------------*/
+
+
+input[type="number"]{
+    -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
